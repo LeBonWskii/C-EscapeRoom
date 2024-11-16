@@ -33,20 +33,20 @@ This game has been tested on Debian 8
 5. End the Game:
    - Use the `end` command to terminate the session.
 
-## Commands 👨‍💻
+## Commands 🕹
 ### Server Commands
-- start: Starts the game server.
-- stop: Stops the game server.
+- `start`: Starts the game server.
+- `stop`: Stops the game server.
 ### Client Commands
-- register <username> <password>: Register a new user.
-- login <username> <password>: Log in to the game.
-- start <room_name>: Start the escape room with the specified room name.
-- look <room | object>: Display the description of a room or an object.
-- take <object>: Pick up an object or initiate a puzzle to unlock it.
-- use <object1> [object2]: Use an object, optionally with another object.
-- objs: View a list of collected objects.
-- end: End the current game session.
-- guess: Activate the special collaborative mini-game with the helper client. 
+- `register <username> <password>`: Register a new user.
+- `login <username> <password>`: Log in to the game.
+- `start <room_name>`: Start the escape room with the specified room name.
+- `look <room | object>`: Display the description of a room or an object.
+- `take <object>`: Pick up an object or initiate a puzzle to unlock it.
+- `use <object1> [object2]`: Use an object, optionally with another object.
+- `objs`: View a list of collected objects.
+- `end`: End the current game session.
+- `guess`: Activate the special collaborative mini-game with the helper client. 
        In this feature, the player collaborates with the helper client to guess the same word 
        by exchanging words in turns without seeing each other's input. Success earns bonus time.
 
