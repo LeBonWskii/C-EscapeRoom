@@ -11,7 +11,7 @@ A TCP-based client-server escape room game where players solve puzzles to progre
 ## Setup ⚙
 This game has been tested on Debian 8
 ### Clone the repository
-``` git clone https://github.com/your-username/escape-room-game.git```
+``` git clone https://github.com/LeBonWskii/C-EscapeRoom.git```
 ### Run the Script
 ```bash
 ./exec2024.sh
